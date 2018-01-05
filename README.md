@@ -16,11 +16,11 @@ Access `mongo://mongo:27017` from within the app container to use mongo from nod
 
 1. Install Docker and Docker-Compose as appropriate for your host OS.  Use the googles; if I list instructions they'll go stale.
 1. Install this project with `git clone git@github.com:ibiwan/node-mongo-docker-base.git`
-1. In this project's directory, run `go`
+1. In this project's directory, run `./go`
 
 ## Making Changes
 
 • If you make changes in the app directory, they should be reflected immediately in your application (refresh the web browser)
 
 • If you make changes in this project's directory, you will need to stop docker with `ctrl-c` and rebuild the setup with `docker-compose build`
-(then start up again with `go`)
+(then start up again with `./go`)
