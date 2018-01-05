@@ -8,13 +8,14 @@ The "app" dir will be shared with the app (nodejs) container, which will restart
 
 MongoDB will set itself up in the mongo container, which uses a shared "data" dir you shouldn't otherwise have to worry about.
 
-Access http://localhost:3000 and mongo://localhost:27017 from your host machine to get to the services.
+Access `http://localhost:3000` and `mongo://localhost:27017` from your host machine to get to the services.
 
-Access mongo://mongo:27017 from within the app container to use mongo from node.
+Access `mongo://mongo:27017` from within the app container to use mongo from node.
 
 ## Setup
 
 1. Install Docker and Docker-Compose as appropriate for your host OS.  Use the googles; if I list instructions they'll go stale.
+1. Install this project with `git clone git@github.com:ibiwan/node-mongo-docker-base.git`
 1. In this project's directory, run `go`
 
 ## Making Changes
