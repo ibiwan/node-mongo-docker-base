@@ -4,6 +4,8 @@ This is meant to be a self-contained setup to get a node/mongo app running in do
 
 ## Usage
 
+Do your dev work in the app folder -- dependencies in package.json and code in server.js or whatever you set up.
+
 The "app" dir will be shared with the app (nodejs) container, which will restart node whenever changes are detected.
 
 MongoDB will set itself up in the mongo container, which uses a shared "data" dir you shouldn't otherwise have to worry about.
